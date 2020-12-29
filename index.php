@@ -228,7 +228,7 @@ include("functions/functions.php");
 <!-- FOOTER START -->
 
 <?php 
-    include("../ecom/includes/footer.php");
+    include("../3D-shopping-mall/includes/footer.php");
 ?>
 <!-- FOOTER FINISH -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>

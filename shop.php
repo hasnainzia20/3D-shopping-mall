@@ -149,13 +149,14 @@ include("functions/functions.php");
                             if(!isset($_GET['cat_id'])){
                             
                                 $per_page=6;
-                                id(isset($_GET[''])){
+                                if(isset($_GET[''])){
                                     $page=$_GET[''];
                                 }else{
                                     $page=1;
-                                }
-                                $start_from={$page-1} * $per_page;
-                                $get_product=" SELECT * FROM products order by product_id DESC LIMIT $start_from "
+                                
+                                $start_from=($page-1)* $per_page;
+                                $get_product=" SELECT * FROM products order by product_id DESC LIMIT $start_from ";}
+                    
                     ?>
 
 
